@@ -1,41 +1,23 @@
-# The module [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/the-module/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/the-module)
+# Control key [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/control-key/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/control-key)
 
-My awesome module.
+Get the control key based on the current platform.
 
-[![NPM Badge](https://nodei.co/npm/the-module.png)](https://npmjs.com/package/the-module)
+[![NPM Badge](https://nodei.co/npm/control-key.png)](https://npmjs.com/package/control-key)
 
 ## Install
 
 ```sh
-npm install the-module
+npm install control-key
 ```
 
 ## Usage
 
 ```js
-const theModule = require("the-module");
+const controlKey = require("control-key")
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+const shortcut = `${controlKey()} + shift + t`
 ```
 
 ## API
 
-### theModule(input, options?)
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-Type: `object`
-
-##### postfix
-
-Type: `string`\
-Default: `rainbows`
-
-Lorem ipsum.
+### currentKey()

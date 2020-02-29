@@ -1,14 +1,12 @@
 /**
- * My awesome module.
- * @param input Lorem ipsum.
- * @param postfix Lorem ipsum.
+ * Get the control key based on the current platform.
  * @example
  * ```
- * const theModule = require("the-module");
- * theModule("unicorns");
- * //=> 'unicorns & rainbows'
+ * const controlKey = require("control-key")
+ *
+ * const shortcut = `${controlKey()} + shift + t`
  * ```
 */
-declare function theModule(input: string, { postfix }: { postfix?: string }): string;
+declare function controlKey(): string
 
-export = theModule;
+export = controlKey

@@ -1,13 +1,8 @@
 const test = require("ava")
-const theModule = require(".")
+const controlKey = require(".")
+
+const result = (main, windows) => process.platform === "darwin" ? windows : main
 
 test("main", (t) => {
-	t.throws(() => {
-		theModule(123)
-	}, {
-		instanceOf: TypeError,
-		message: "Expected a string, got number",
-	})
-
-	t.is(theModule("unicorns"), "unicorns & rainbows")
+	t.is(controlKey(), result("ctrl", "⌘"))
 })

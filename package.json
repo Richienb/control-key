@@ -1,8 +1,8 @@
 {
-	"name": "the-module",
+	"name": "control-key",
 	"version": "0.0.0",
-	"description": "My awesome module.",
-	"repository": "https://github.com/Richienb/the-module.git",
+	"description": "Get the control key based on the current platform.",
+	"repository": "https://github.com/Richienb/control-key.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
 	"license": "MIT",
 	"main": "index.js",
@@ -17,7 +17,17 @@
 		"lint": "xo",
 		"test": "yarn lint && ava"
 	},
-	"keywords": [],
+	"keywords": [
+		"platform",
+		"control",
+		"key",
+		"keyboard",
+		"detection",
+		"isomorphic",
+		"cross",
+		"shortcut",
+		"combination"
+	],
 	"dependencies": {},
 	"devDependencies": {
 		"ava": "^3.3.0",
