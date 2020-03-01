@@ -1,6 +1,6 @@
 {
 	"name": "control-key",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "Get the control key based on the current platform.",
 	"repository": "https://github.com/Richienb/control-key.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
