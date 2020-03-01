@@ -6,9 +6,11 @@
 	"author": "Richie Bendall <richiebendall@gmail.com>",
 	"license": "MIT",
 	"main": "index.js",
+	"browser": "browser.js",
 	"files": [
 		"index.js",
-		"index.d.ts"
+		"index.d.ts",
+		"browser.js"
 	],
 	"engines": {
 		"node": ">=10"
